@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(246, 212, 247);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lemonada', cursive;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    color: rebeccapurple;
+    font-size: 4rem;
+    text-align: center;
+    opacity: 0.4;
+}
+
+form {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.733);
+    width: 400px;
+    max-width: 100%;
+}
+
+.input{
+    border: none;
+    width: 100%;
+    display: block;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+}
+
+.input::placeholder{
+    color: #b5b5b5;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.quehaceres {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.quehaceres li{
+    border-top: 1px solid #b5b5b5;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.quehaceres li.completado{
+    color: rgba(128, 128, 128, 0.76);
+    text-decoration: line-through;
+}
+
+small{
+    margin-top: 3rem;
+    text-align: center;
+}
